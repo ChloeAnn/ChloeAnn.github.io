@@ -1,0 +1,42 @@
+body {
+
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #262626;
+   	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	color: #efefef;
+	word-wrap: break-word;
+	line-height: 1.05;
+	letter-spacing: 1px;
+	letter-spacing: -0.015em;
+	font-weight: 20;
+	text-rendering: optimizeLegibility;
+	margin: 10px 20px 30px 60px;
+ }
+
+h1 {
+    color: SkyBlue;
+    font-weight: 30;
+    text-align: center;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    color: LightGray ;
+}
+
+.copyright {
+	color: MistyRose;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+
+    position: absolute;
+    left: -4.0rem;
+    top: 43.5rem;
+    font-size:15px;
+}
