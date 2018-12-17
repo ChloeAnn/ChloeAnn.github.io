@@ -3,16 +3,16 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     background-color: #262626;
-   	font-family: 'Open Sans', sans-serif;
-	font-size: 40px;
-	color: #efefef;
-	word-wrap: break-word;
-	line-height: 1.05;
-	letter-spacing: 1px;
-	letter-spacing: -0.015em;
-	font-weight: 20;
-	text-rendering: optimizeLegibility;
-	margin: 10px 20px 30px 60px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    color: #efefef;
+    word-wrap: break-word;
+    line-height: 1.05;
+    letter-spacing: 1px;
+    letter-spacing: -0.015em;
+    font-weight: 20;
+    text-rendering: optimizeLegibility;
+    /*margin: 10px 20px 30px 60px;*/
  }
 
 h1 {
@@ -40,3 +40,16 @@ p {
     top: 43rem;
     font-size:15px;
 }
+
+img.resize {
+  max-width:70%;
+  max-height:70%;
+  margin: -30px 10px 10px -150px;
+
+}
+
+/*img.resize2 {
+  max-width:70%;
+  max-height:70%;
+  margin: -703px 100px 100px 500px;
+}*/
