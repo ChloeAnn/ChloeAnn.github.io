@@ -1,7 +1,10 @@
-body {
+html, body {
 
-    max-width: 100%;
-    overflow-x: hidden;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+body {
     background-color: #262626;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
@@ -48,6 +51,20 @@ img.resize {
 
 }
 
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /*img.resize2 {
   max-width:70%;
   max-height:70%;
